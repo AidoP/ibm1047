@@ -1,0 +1,13 @@
+[package]
+name = "ibm1047"
+version = "1.0.0"
+authors = ["Aidan Prangnell"]
+description = "String conversions to and from IBM-1047"
+repository = "https://github.com/AidoP/ibm1047/"
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+
+[features]
+default = ["alloc"]
+alloc = []
